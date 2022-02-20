@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="Mk">
+    <head>
+        <title>Крводарител</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">   
+        <link rel="stylesheet" href="css/register-style.css">
+        <link rel="stylesheet" href="css/main.css"> 
+    </head>
+    <body>
+        <!--Header (navlinks, logo and button) -->
+        <div class="header-wrapper">
+        <header class="header-nav">
+
+            <nav>
+              <ul class="nav-links-left">
+                <li><a class="nav-link" href="about-us.html">Зa Нас</a></li>
+                <li><a class="nav-link" href="archive.html">Едукација</a></li>
+                <li><a class="nav-link" href="archive.html">Новости</a></li>
+              </ul>
+            </nav>
+            <div class="logo-container">
+                <a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+            </div>
+            <nav>
+              <ul class="nav-links-right">
+                <li><a class="nav-link" href="register.html">Членство</a></li>
+                <li><a class="nav-link" href="contact.html">Контакт</a></li>
+                <li><a class="nav-link" href="benefits.html">Поволности</a></li>
+              </ul>
+            </nav>
+          </header>
+
+        </div>
+        <!-- Main -->
+        <main class="content-boxed">
+
+            <!-- Div Heading -->
+            <div class="heading">
+                <h1>ЧЛЕНСТВО</h1>
+                <div class="main-information">
+                <p>
+                    Почитувани, Ова е адаптирана електронска форма на официјалната пристапница во
+                    Здружението на крводарители и поддржувачи на крводарителството <span class="bold">КРВОДАРИТЕЛ</span> Скопје.
+                </p>
+                <p>
+                    Со нејзино пополнување и редовно уплаќање на симболични годишни членарини Вие станувате член, 
+                    поддржувач на активностите на <span class="bold">ЗКПК КРВОДАРИТЕЛ</span> и активен бенефитор, односно корисник на сите <a href="benefits.html" > <span class="bold">бенефиции и попусти</span></a>  кои ги склучува 
+                    во форма на договори ЗКПК со другите правни субјекти. Доколку одлучите да не се зачлените, Вашите податоци ќе бидат искористени/внесени во
+                    базата на контакти кои се користат при повикување на крводарители кога правиме напори за обезбедување на крв за јавните повици.
+                </p>
+                <p>
+                    Се надеваме дека ќе станете дел од нас. Со почит, Тимот на <span class="bold">ЗКПК КРВОДАРИТЕЛ</span> Скопје. <br />
+                    <span class="bold">(уплата на 100 денари на сметката која може да ја видите на сликата на крајот на формуларот. 
+                        Секој износ поголем од 100 денари ќе се смета за дополнителна донација за функционирање на здружението.)</Span> 
+                </p>
+            </div>
+            </div> <!-- heading end here -->
+            <div class="register-forms">
+                <div class="titles">
+                    <h2>Регистрација</h2>
+                    <p><span class="red">*</span>Задолжителни полиња</p>
+                </div>
+
+                <!-- Form -->
+                <form action="" method="POST">
+
+                    <!-- Full Info -->
+                    <div class="full-info">
+                        <p> <span class="red">*</span>Име и Презиме:</p>
+                        <div class="fullname">
+                            <span class="one">
+                                <input class="input1" type="text" name="name" id="name" placeholder="Име" required>
+                            </span>
+                            <span class="one">
+                                <input class="input2" type="text" name="lastname" id="lastname" placeholder="Презиме" required>
+                            </span>
+                        </div>
+                    </div> <!-- full info end here -->
+
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <p><span class="red">*</span>Контакт:</p>
+                        <div class="number-email">
+                            <span class="one">
+                                <input type="text" name="mobile" id="mobile" placeholder="Телефон" required>
+                            </span>
+                            <span class="one">
+                                <input type="email" name="email" id="email" placeholder="Е-Маил" required>
+                            </span>
+                        </div>
+                        <div class="location">
+                            <p><span class="red">*</span>Населено место:</p>
+                            <div>
+                                <span class="one">
+                                    <input type="text" name="city" id="city" placeholder="Град" required>
+                                </span>
+                                <span class="one">
+                                    <input type="text" name="adress" id="adress" placeholder="Адреса" required>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Date -->
+                        <div class="date-birth">
+                            <p><span class="red">*</span>Дата на раѓање:</p>
+                            <div>
+                                <input type="date" name="date" id="" placeholder="Датум на раѓање" required>
+                            </div>
+                            
+                        </div>
+                    </div> <!-- contact-info end here -->
+
+                    <!-- Work Status-->
+                    <div class="workstatus">
+                        <p><span class="red">*</span>Работен статус:</p>
+                        <div>
+                            <select name="status" id="status" required>
+                                <option disabled selected>Селектирај</option>
+                                <option value="Vraboten">Вработен</option>
+                                <option value="Nevraboten">Невработен</option>
+                                <option value="Student">Студент</option>
+                                <option value="Penzioner">Пензионер</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Blood Types-->
+                    <div class="blood-types">
+                        <p><span class="red">*</span>Kрвна група:</p>
+                        <div>
+                            <select name="blood-type" id="blood-type" required>
+                                <option disabled selected>Селектирај</option>
+                                <option value="0-negativ">0  негатив</option>
+                                <option value="0-pozitiv">0 позитив</option>
+                                <option value="A-negativ">А негатив</option>
+                                <option value="A-pozitiv">А позитив</option>
+                                <option value="B-negativ">Б негатив</option>
+                                <option value="B-pozitiv">Б позитив</option>
+                                <option value="AB-negativ">АБ негатив</option>
+                                <option value="Ab-pozitiv">АБ позитив</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="sizeshirt" >
+                        <p><span class="red">*</span>Величина на маица:</p>
+                        <div>
+                            <select name="size-shirt" id="size-shirt" required>
+                                <option disabled selected>Селектирај</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                                <option value="XXL">XXL</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Btn-New Photo-->
+                    <div class="new-photo">
+                        <p><span class="red">*</span>Слика за книшка:</p>
+                        <div>
+                            <button class="btn btn-red">ПРИКАЧИ</button required>
+                        </div>
+                    </div>
+                    <div>
+                        <p><span class="red">*</span>Број на дарувања:</p>
+                        <div class="donate-number">
+                            <select name="donatenumber" id="donatenumber" required>
+                                <option disabled selected>Селектирај</option>
+                                <option value="0-9">0-9</option>
+                                <option value="10-24">10-24</option>
+                                <option value="25-49">25-49</option>
+                                <option value="50-74">50-74</option>
+                                <option value="75-99">75-99</option>
+                                <option value="100">100+</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Donor Status-->
+                    <div class="donorstatus">
+                        <p><span class="red">*</span>Крводарителски статус:</p>
+                        <div>
+                            <select name="donor-status" id="donor-status">
+                                <option disabled selected>Селектирај</option>
+                                <option value="Na-Povik">На Повик</option>
+                                <option value="Redoven">Редовен</option>
+                                <option value="Povremen">Повремен</option>
+                                <option value="Neaktiven">Неактивен</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <!-- ITM NUMBER -->
+                    <div class="itm-number">
+                        <p><span class="red">*</span>Број на картон во ИТМ:</p>
+                        <div class="itm">
+                            <input type="text" name="itmnumber" id="itmnumber" placeholder="Број на картон" required>
+                        </div>
+                    </div>
+                    <!--- Photo Leg. -->
+                    <div class="leg-photo">
+                        <p><span class="red">*</span>Слика од крводарителската легитимација:</p>
+                        <div>
+                            <button class="btn btn-red">ПРИКАЧИ</button>
+                        </div>
+                    </div>
+
+                    <!-- Donor Trombociti Form -->
+                    <div class="donortrombociti">
+                        <p> Дали сте запознаени со процедурата Тромбоцитофереза? Дали би сакале да станете дарител на тромбоцити?</p>
+                        <div>
+                            <select name="trombociti-donor" id="trombociti-donor" >
+                                <option disabled selected>Селектирај</option>
+                                <option value="">Веќе сум активен дарител на тромбоцити</option>
+                                <option value="">Заинтересиран сум за дарување на тромбоцити</option>
+                                <option value="">Не сум заинтересиран / проверен сум за дарување на тромбоцити</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Type Membership -->
+                    <div>
+                        <p><span class="red">*</span>Вид на членство:</p>
+                        <div class="typemembership">
+                            <select name="type-membership" id="type-membership">
+                                <option disabled selected>Селектирај</option>
+                                <option value="polnopraven chlen">Полноправен член ( може да биде вклучен во активностите на здружението)</option>
+                                <option value="chlen podrzuvach">Член подржувач( лице кое не е крводарител )</option>
+                                <option value="25-49">Не сум заинтересиран / проверен сум за дарување на тромбоцити</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- COVID-19 FORM -->
+                    <div class="covid-form">
+                        <p>Дали сте прележале КОВИД-19?</p>
+                        <input type="radio" name="covid-qst" id="yes" value="yes">
+                        <label for="yes">Да</label>
+                        <br>
+                        <input type="radio" name="covid-qst" id="no" value="no">
+                        <label for ="no">Не</label>
+                    </div>
+                    <!-- BTN SUBMIT AND PRINT -->
+                    <div class="submitandprint">
+                        <p><span class="red">*</span>Формурал:</p>
+                            <button class="btn btn-nofill">ИСПРИНТАЈ</button>
+                            <button type="submit" class="btn btn-red" id="primary">ИСПРАТИ</button>
+                    </div>
+                </form> <!-- form end here-->
+
+            </div> <!-- register forms end here -->
+
+        </main> <!-- main end here -->
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-logo same-class">
+                        <a href="#back-to-top"><img src="img/logo.png" alt=""></a>
+                        <p> Дарувај крв. <br /> Биди Хуман!</p>
+                    </div>
+                    <div class="footer-links same-class">
+                        <ul>
+                            <p>Линкови:</p>
+                            <li><a href="about-us.html">За Нас</a></li>
+                            <li><a href="archive.html">Новости</a></li>
+                            <li><a href="archive.html">Едукација</a></li>
+                            <li><a href="register.html">Членство</a></li>
+                            <li><a href="contact.html">Контакт</a></li>
+                            <li><a href="benefits.html">Поволности</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact same-class">
+                       <ul>
+                           <p>Локација:</p>
+                           <li>Скопје</li>
+                           <li><a href="">Ул. Ѓорче Петров  бр. 153/1</a></li>
+                       </ul> 
+                       <ul>
+                           <p>Контакт:</p>
+                            <li><a href="mailto:contact@krvodaritel.org">contact@krvodaritel.org</a></li>
+                            <li><a href ="mailto:krvodaritel.skopje@gmail.com">krvodaritel.skopje@gmail.com</a></li>
+                            <li><a href="Tel:079-359-369">079-359-369</a></li>
+                            <li><a href="Tel:075-99-78-79">075-99-78-79</a></li>
+                       </ul>
+                    </div>
+                </div>
+    
+                <div class="footer-copyright">
+                    <p>Сите права се задржани &copy; Крводарител 2020</p>
+                </div>
+    
+        </footer>
+    </body>
+</html>

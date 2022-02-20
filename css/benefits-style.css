@@ -1,0 +1,146 @@
+
+ html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+
+/* main title */
+.main-titles{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pdf-files{
+    padding: 50px 0 100px 0; 
+}
+.header-wrapper{
+    padding: 60px 0px 60px 0px;
+}
+ /* main card */
+ .main-card-benefits{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+ }
+
+.main-card-benefits img{
+    width: 30%;
+    height: auto;
+}
+.card-one{
+    order: 2;
+}
+.card-two{
+    order: 1;
+}
+.card-three{
+    order: 3;
+}
+ .card-one, .card-two, .card-three{
+    padding: 0 10px;
+    
+ }
+ .reason-one{
+    text-align: center;
+    width: 370px;
+    height: 100%;
+    padding: 10px 5px;
+
+ }
+
+ .reason-one p{
+     padding: 10px;
+ }
+
+.reason-one h3{
+    padding: 20px 0 10px 0;
+}
+
+ /* Main Card end Here*/
+
+     /* LGT CARD */
+.main-lgt-card{
+    /* padding:100px 0 70px 0; */
+    margin: 150px 0px 150px 0; 
+}
+
+.lgt-card{
+    display: flex;
+    border: none;
+    width: 100%;
+    height: 420px;
+    background-color: white;
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0, 0.05));
+}
+
+.lgt-card .card{
+    padding:40px 20px 40px 20px;
+    
+}
+
+.card-content{ 
+    height: 100%;
+}
+
+.lgt-card h2{
+    padding: 0 0 10px 0;
+    text-align: left;
+}
+
+.lgt-card img{
+    width: 100%;
+    height: auto;
+}
+
+.lgt-card p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #7a7a7a;
+    font-size: 18px;
+    line-height: 1.5em;
+    width: 55ch;
+}
+
+ /* list items */
+.benefit-list ul{
+    list-style: circle;
+    color: #E73638;;
+}
+
+/* slider */ 
+.company-logos-benefits{
+    display: flex;
+}
+
+.cmp-logo{
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0, 0.05));
+    padding: 0 5px;
+}
+
+.cmp-logo img{
+    width: 100%;
+}
+
+footer{
+    margin-top: 100px;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

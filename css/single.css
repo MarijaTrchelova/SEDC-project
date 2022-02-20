@@ -1,0 +1,20 @@
+.header-wrapper{
+    padding: 60px 0px 60px 0px;
+}
+.single-post #primary{
+    margin-right: 40px;
+}
+
+.single-post .post-thumb {
+    border-radius: 20px;
+    max-height: 430px;
+    overflow: hidden;
+    margin:15px 0;
+}
+.single-post .post-thumb img {
+    width: 100%;
+    object-fit: cover;   
+}
+footer{
+    margin-top: 120px;
+}
